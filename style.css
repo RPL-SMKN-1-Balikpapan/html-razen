@@ -1,0 +1,138 @@
+
+
+header
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 35px 7%;
+    display: flex;
+}
+body {
+
+    background-image: url(backgroundweb.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+
+}
+
+.navbar {
+   
+    background-color: black;
+    border-right: 100px;
+    text-align: center;
+    display: flex;
+    font-family: "Bebas Neue", sans-serif;
+    padding: 1,4rem 7%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+
+}
+
+/* navbarnav */
+.navbar .navbar-nav{
+    gap: 30px;
+    display: flex;
+    margin-left: 70%;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;  
+    border-radius: 10000px; 
+    height: 25px; 
+    padding: 5px;
+}
+
+/* icon */
+.navbar .navbar-nav a 
+{
+    
+    color: white;
+
+}
+
+/* isi */
+.navbar .navnav{
+
+    margin-right: 7;
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background-color: rgb(6, 0, 58);
+    width: 8rem;
+    height: 100vh;
+    transition: 1s;
+
+
+}
+
+/* isi2 */
+.navbar .navnav a{
+
+color: rgb(255, 255, 255);
+text-decoration: none;
+display: block;
+padding: 0,5;
+text-align: left;
+margin-left: 10px;
+margin-top: 10px;
+}
+
+/* actiiv */
+.navbar .navnav.active{
+
+    right: 0;
+}
+
+.logo{
+
+color: white;
+text-decoration: none;
+margin-left: 1rem;
+margin-top: 1rem;
+font-size: 24PX;
+
+}
+.logo span{
+    color: aqua;
+}
+
+h1 {
+    
+    background-color: black;
+    padding: 2mm;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    align-items: center;
+    text-align: center;
+
+}
+
+.text {
+    display: flex;
+    color: rgb(0, 0, 0);
+    background-color: rgba(219, 219, 248, 0.418);
+    text-align: center;
+    align-items: center;
+    margin-top: 6cm;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 1cm;
+
+}
+
+.text p2 {
+    padding: 1mm;
+    background-color: black;
+    color: red;
+    border-radius: 1cm;
+}

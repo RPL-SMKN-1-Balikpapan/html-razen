@@ -1,0 +1,56 @@
+* {
+    margin: 0%;
+    text-decoration: none;
+
+}
+
+body {
+    width: 100%;
+
+}
+
+.container{
+
+    display: flex;
+    background-color: yellow;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+}
+
+nav ul{
+
+    padding: 1rem;
+    gap: 2rem;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    list-style: none;
+
+}
+
+nav ul li a{
+
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+
+}
+
+
+nav ul :hover { 
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(170, 117, 3);
+    border-radius: 10px;
+
+
+}
+
+span {
+
+    color: rgb(0, 174, 255);
+
+}
+
